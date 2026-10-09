@@ -1,0 +1,35 @@
+{
+  "name": "docusaurus-plugin-foresite",
+  "version": "1.0.0",
+  "description": "Foresite for Docusaurus: privacy-first website analytics with no cookies.",
+  "keywords": ["docusaurus", "docusaurus-plugin", "analytics", "privacy", "cookieless", "foresite"],
+  "homepage": "https://foresite.dev/docs/docusaurus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devontheriault/docusaurus-plugin-foresite.git"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib"],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@docusaurus/utils-validation": "^3.0.0"
+  },
+  "peerDependencies": {
+    "@docusaurus/core": "^3.0.0"
+  },
+  "devDependencies": {
+    "@docusaurus/types": "^3.10.2",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=18.0"
+  }
+}
